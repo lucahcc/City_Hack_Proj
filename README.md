@@ -1,6 +1,6 @@
 # City_Hack_Proj
 A project which participated in CityHack Fintech part. This is a financial platform framework that contains several programming parts. This platform is in order to have real-time access to stock or statement data and build a mathematical model to provide information and investing advice to investors and lenders.
-Here are the following  component:
+Here are the following  components:
 # 1. Web crawler (Python)
 This part is a python web crawler that could real-time catch the related information and save them in a CSV file which is prepared for the Database part.
 # 2.Database(mySQL)
