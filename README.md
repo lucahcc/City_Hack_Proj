@@ -11,7 +11,8 @@ Ye Xuntan
 Zhang Yueyang
 Shen Jinghao  
 <br/>
-## Description of the Project (300 words)
+ <br/>
+##  Description of the Project (300 words)
 A project which participated in CityHack Fintech part. This is a financial platform framework that contains several programming parts. This platform is in order to have real-time access to stock or statement data and build a mathematical model to provide information and investing advice to investors and lenders.
   
 <br/>  
