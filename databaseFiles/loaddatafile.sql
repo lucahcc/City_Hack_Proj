@@ -1,0 +1,5 @@
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Apple.csv' 
+INTO TABLE stocktrend 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS; 
