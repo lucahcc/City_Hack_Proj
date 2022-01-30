@@ -1,0 +1,670 @@
+body {
+    background: #EEE;
+    font-family: "freight-sans-pro";
+    font-style: normal;
+    font-weight: 300;
+}
+
+h1 {
+    color: #1DA7D2;
+    font-family: "freight-sans-pro-n3", "freight-sans-pro";
+    font-weight: 400;
+}
+
+h4 {
+    color: #1DA7D2;
+    font-family: "freight-sans-pro-n3", "freight-sans-pro";
+    font-weight: 400;
+}
+
+a:hover {
+    color: #CD3735;
+}
+
+.display {
+    display: block !important;
+}
+
+.hug {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1200px;
+}
+
+.hug:before,
+.hug:after {
+    content: " ";
+    display: table;
+}
+
+.hug:after {
+    clear: both;
+}
+
+.header {
+    height: 95px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+
+.header .wrapper {
+    position: relative;
+    height: 95px;
+}
+
+.logo {
+    width: 104px;
+    height: 30px;
+    background: url(../img/LOGO.png) top center no-repeat;
+    top: 29px;
+    position: absolute;
+    left: 0px;
+}
+
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -10px;
+    font-size: 1px;
+    overflow: hidden;
+}
+
+.stock {
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    top: 50px;
+    font-size: 12px;
+}
+
+.stock a {
+    color: #000;
+}
+
+.header .menu {
+    width: 520px;
+    list-style: none;
+    color: #535;
+    font-size: 19px;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+}
+
+.header .menu a {
+    color: #535353;
+    font-family: "freight-sans-pro-n4", "freight-sans-pro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header .active a {
+    color: #CD3735;
+}
+
+.header .menu a:hover {
+    color: #CD3735;
+}
+
+.header .menu li {
+    float: left;
+    margin-left: 23px;
+}
+
+.header .menu-tab {
+    width: 75px;
+    height: 75px;
+    background: url(../img/menu.png) center center no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    cursor: pointer;
+    border-left: #DFDFDF solid 1px;
+}
+
+.header .menu-tab-close {
+    width: 75px;
+    height: 75px;
+    background: #5B5B5B url(../img/close.png) center center no-repeat;
+    top: 0;
+    right: 0;
+}
+
+.spacebar {
+    height: 95px;
+    width: 100%;
+}
+
+.graybar {
+    width: 100%;
+    height: 61px;
+    background: #E7E7E7;
+}
+
+.hero {
+    height: 282px;
+    background: #F1F1F1;
+}
+
+.hero .columns {
+    padding: 0;
+    border: none;
+}
+
+.hero .callout {
+    height: 282px;
+    position: relative;
+}
+
+.hero .callout a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero .callout h1 {
+    color: #1DA7D2;
+    font-size: 29px;
+    margin-top: 93px;
+    margin-bottom: 0px;
+    font-family: "freight-sans-pro-n3", "freight-sans-pro";
+}
+
+.hero .callout p {
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #7C7C7C;
+    font-family: "freight-sans-pro-n4", "freight-sans-pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 0px;
+    width: 200px;
+    margin: auto;
+}
+
+.hero .one div,
+.hero .two div,
+.hero .three div {
+    height: 168px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -84px;
+    text-align: center;
+}
+
+.hero .one {
+    background: #DDD;
+}
+
+.hero .one div {
+    background: url(../img/advert-icon.png) top center no-repeat;
+}
+
+.hero .two {
+    background: #E7E7E7;
+}
+
+.hero .two div {
+    background: url(../img/pub-icon.png) top center no-repeat;
+}
+
+.hero .three {
+    background: #F1F1F1;
+}
+
+.hero .three div {
+    background: url(../img/content-icon.png) top center no-repeat;
+}
+
+.sub {
+    height: 61px;
+}
+
+.sub .callout {
+    height: 61px;
+}
+
+.sub .callout h1 {
+    font-size: 22px;
+    margin-top: 69px;
+}
+
+.sub .one h1 {
+    text-indent: 5px
+}
+
+.sub .one div {
+    background: url(../img/advert-icon-small.png) center center no-repeat;
+}
+
+.sub .two h1 {
+    text-indent: 45px
+}
+
+.sub .two div {
+    background: url(../img/pub-icon-small.png) center center no-repeat;
+}
+
+.sub .three div {
+    background: url(../img/content-icon-small.png) center center no-repeat;
+}
+
+.sub .three h1 {
+    text-indent: 45px
+}
+
+.listWidget ul {
+    list-style: none;
+    font-size: 14px;
+    font-family: "freight-sans-pro-n4", "freight-sans-pro";
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 0;
+}
+
+.listWidget a {
+    color: #CD3735;
+}
+
+.listWidget a:hover {
+    color: #9B9B9B;
+}
+
+.listWidget span {
+    padding-right: 5px;
+}
+
+.listWidget li {
+    border-bottom: #C3C3C3 dotted 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.content {
+    min-height: 500px;
+    background: #fff;
+}
+
+.homepage {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 46px;
+    color: #656565;
+}
+
+.homepage .bio h1 {
+    line-height: 50px;
+    font-size: 48px
+}
+
+.homepage .bio {
+    padding-bottom: 30px;
+    width: 100%;
+    max-width: 700px
+}
+
+.homepage .bio p {
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.homepage .press h4,
+.homepage .events h4 {
+    width: 100%;
+    color: #1DA7D2;
+    font-size: 19px;
+    font-family: "freight-sans-pro-n3", "freight-sans-pro";
+    text-indent: 25px;
+}
+
+.homepage .press h4 {
+    background: url(../img/press-icon.png) left center no-repeat;
+}
+
+.homepage .events h4 {
+    background: url(../img/event-icon.png) left center no-repeat;
+}
+
+div.page {
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 56px;
+    color: #656565;
+}
+
+.page .bio {
+    margin-bottom: 20px;
+}
+
+.page .menu {
+    background: #F6F6F6;
+    width: 100%;
+    min-height: 100px;
+    margin-left: 0;
+    list-style: none;
+    border-left: #DDDDDD solid 1px;
+    border-top: #DDDDDD solid 1px;
+}
+
+.page .menu li {
+    height: 72px;
+    width: 100%;
+    font-size: 18px;
+    text-indent: 27px;
+    line-height: 70px;
+    border-bottom: #DDDDDD solid 1px;
+}
+
+.page .menu a {
+    color: #656565;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.page .menu a:hover {
+    color: #CD3735;
+}
+
+.page .active {
+    background: #fff;
+    width: 101% !important;
+    border-right: #fff solid 3px;
+    z-index: 2;
+    position: relative;
+}
+
+.page .active a {
+    color: #CD3735;
+}
+
+.page .clear {
+    padding-right: 0 !important;
+}
+
+.page .box {
+    border: #DDDDDD solid 1px;
+    margin-left: 0;
+    z-index: 0;
+    padding: 5px 25px;
+}
+
+.page .box h1 {
+    color: #333333;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background: #DDD;
+    border-top: #EEE solid 1px;
+}
+
+.footer .wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.footer .left {
+    position: absolute;
+    top: 22px;
+    left: 50px;
+}
+
+.footer .left h4,
+.footer .left a,
+.footer .right a {
+    font-family: "freight-sans-pro-n4", "freight-sans-pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #656565;
+}
+
+.footer .left a:hover,
+.footer .right a:hover {
+    color: #CD3735;
+}
+
+.footer .left h4 {
+    margin: 0;
+}
+
+.footer .left ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer .left li {
+    float: left;
+    margin-right: 15px;
+    line-height: 20px;
+}
+
+.footer .right {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.footer .right ul {
+    list-style: none;
+    margin: 0;
+}
+
+.footer .right li {
+    float: left;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width : 1258px) {
+
+    .logo,
+    .stock {
+        left: 20px;
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width : 740px) {
+    .header .menu {
+        width: 467px;
+    }
+
+    .header .menu a {
+        font-size: 16px;
+    }
+
+    .page .menu li {
+        font-size: 14px;
+    }
+
+    .hero .callout p {
+        font-size: 15px;
+        width: 200px;
+        padding-left: 6px;
+    }
+
+    .homepage .bio h1 {
+        font-size: 35px
+    }
+
+    .listWidget a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer .right ul {
+        width: 300px;
+    }
+
+    .footer .right {
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+    .logo,
+    .stock {
+        left: 20px;
+        position: absolute;
+        top: 19px;
+    }
+
+    .stock {
+        top: 45px;
+    }
+
+    .hero .callout p {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .homepage {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .homepage .bio h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .homepage .bio {
+        padding-top: 35px;
+    }
+
+    .homepage .press {
+        margin-top: 30px;
+    }
+
+    .homepage .image {
+        display: none;
+    }
+
+    .header .menu-tab {
+        display: block;
+    }
+
+    .header {
+        height: 75px;
+    }
+
+    .spacebar {
+        height: 75px;
+    }
+
+    .header .menu {
+        width: 100%;
+        background: #4C4C4C;
+        top: 75px;
+        margin: none;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        padding-bottom: 5px;
+        opacity: 0.9;
+        filter: alpha(opacity=40);
+        padding-top: 4px;
+        padding-bottom: 3px;
+        display: none;
+    }
+
+    .header .menu li {
+        width: 100%;
+        float: none;
+        margin: 0;
+        border-bottom: #666 solid 1px;
+        padding-bottom: 5px;
+        padding-top: 3px;
+    }
+
+    .header .menu li:last-child {
+        border: 0;
+    }
+
+    .header .menu a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 19px;
+        color: #fff;
+        text-indent: 20px;
+    }
+
+    .page {
+        padding-left: 0 !important;
+        padding-right: 20px !important;
+    }
+
+    .page .menu {
+        border-right: #DDDDDD solid 1px
+    }
+
+    .page .bio {
+        padding-top: 20px;
+    }
+
+    .page .menu li {
+        font-size: 18px;
+    }
+
+    .page .selected {
+        border-right: 0;
+        width: 100% !important;
+    }
+
+    .page .box {
+        border: 0;
+        padding-left: 19px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 150px;
+        border: 0;
+    }
+
+    .footer .left {
+        left: 28px;
+    }
+
+    .footer .right {
+        left: 12px;
+        top: 80px;
+    }
+
+    .sub .one div,
+    .sub .two div,
+    .sub .three div {
+        background-position: 20px;
+        text-align: left;
+    }
+
+    .sub h1 {
+        margin-left: 75px !important;
+        text-indent: 0 !important;
+    }
+}
