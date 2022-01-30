@@ -33,8 +33,7 @@ This part is a python web crawler that could real-time catch the related informa
   
    
 <br/>  
-<br/>  
-<br/>
+
 ### 2.Database(mySQL)
 This part uses MySQL to store and process the data.  
 <br/>  
