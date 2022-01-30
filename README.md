@@ -11,13 +11,12 @@ Ye Xuntan
 Zhang Yueyang
 Shen Jinghao  
 <br/>
- <br/>
+
 ##  Description of the Project (300 words)
 A project which participated in CityHack Fintech part. This is a financial platform framework that contains several programming parts. This platform is in order to have real-time access to stock or statement data and build a mathematical model to provide information and investing advice to investors and lenders.
   
 <br/>  
-<br/>  
-<br/>
+
 ## 3 Most Impactful Features of the Project (with Screenshot and Short Description
 (1) Data Source & Scientific Modelling
 (2) Risk & Credit Assessment
@@ -25,8 +24,7 @@ A project which participated in CityHack Fintech part. This is a financial platf
   
   
 <br/>  
-<br/>  
-<br/>
+
 ## Tech used 
 ### 1. Web crawler (Python)
 This part is a python web crawler that could real-time catch the related information and save them in a CSV file which is prepared for the Database part.
