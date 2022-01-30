@@ -1,5 +1,6 @@
 
 #CityHack22 Project Submission
+<br/>
 #Project: < Real-time Modeling Financial Analysis Platform >
 ![LOGO](https://user-images.githubusercontent.com/88543639/151689462-2310058a-7a4e-488c-9fac-f61f1f4eedd3.jpg)
 
